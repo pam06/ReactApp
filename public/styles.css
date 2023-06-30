@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 25px;
+    max-width: 400px;
+    min-width: 400px;
+    background-color: #2a2f4f;
+    text-align: center;
+  }
+  
+  .heading {
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    margin: 20px 0 30px;
+  }
+  
+  .card {
+    border-radius: 25px;
+    position: relative;
+    padding: 25px 15px;
+    background-color: #acb1d6;
+    margin: 100px 0;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .top {
+    border-radius: 25px 25px 0 0;
+    height: 100px;
+    width: 100%;
+    background-color: #acb1d6;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .name {
+    font-size: 2em;
+    color: #2d3436;
+    margin: 5% 20px 0;
+  }
+  
+  .card img {
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;
+    border: 1px solid white;
+  }
+  
+  .circle-img {
+    border-radius: 50%;
+    border: 7px solid #fff;
+    width: 120px;
+    height: 120px;
+    align-items: center;
+  }
+  
+  .bottom {
+    margin: 170px auto 5px auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .searchbox {
+    width: 250px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  .searchButton {
+    cursor: pointer;
+    width: 80px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .searchButton:hover {
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+  }
+  
